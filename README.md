@@ -1,4 +1,4 @@
-> Using DE1-SOC Audio CODEC, Play `twinkle twinkle little star`.
+> Using DE1-SOC Audio CODEC, Played `twinkle twinkle little star`.
 
 
 # Background
@@ -6,7 +6,7 @@ The DE1-SoC board is equipped with an audio CODEC capable of sampling sound from
 
 
 # Notes
-<b>IMPORTANT</b> : You must always write to both left and right FIFOs. If either FIFO is empty, nothing is sent to the audio CODEC.
+<b>IMPORTANT</b> : Must write to both left and right FIFOs. If either FIFO is empty, nothing is sent to the audio CODEC.
 
 
 # Device driver kernel programming - sw & hex
