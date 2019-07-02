@@ -10,13 +10,13 @@ The DE1-SoC board is equipped with an audio CODEC capable of sampling sound from
 
 
 # Device driver kernel programming - sw & hex
-`audio.c` and `hex.c` are both developed as a kernel side program. So  `Makefile` is needed and We must register the device drivers.
+`sw.c` and `hex.c` are both developed as a kernel side program. So  `Makefile` is needed and We must register the device drivers.
 
 Compile and Loading.
 
 ```bash
 $make
-$insmod audio.ko
+$insmod sw.ko
 $insmod hex.ko
 ```
 
